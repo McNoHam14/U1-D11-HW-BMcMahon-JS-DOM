@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Shop Website</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+    <h1> Benphone Warehouse </h1>
+
+    <button onclick="changeTextToBlue()"> Toggle blue style on h1 tag </button>
+
+    <br />
+    <br />
+
+
+
+    <br />
+    <br />
+
+    <table id="productTable">
+        <tr>
+            <th>Model/Title</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Links to Amazon</th>
+            <th>Image</th>
+        </tr>
+
+
+
+        <tr>
+            <td>iPhone 14 Pro Max</td>
+            <td>2000</td>
+            <td>The best Apple phone you can buy.</td>
+            <td>Links to Amazon <a https://www.amazon.co.uk/Apple-iPhone-14-Pro-Max/dp/B0BDJ4Z184 </a> </td>
+            <td><img class="phonepictures"
+                src="./iphone14ProMax.jpg" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>Samsung Galaxy S22 Ultra</td>
+            <td>1499</td>
+            <td>The best flagship Android phone right now. </td>
+            <td>Links to Amazon <a https://www.amazon.co.uk/Samsung-Galaxy-Android-Smartphone-Burgundy/dp/B09NRV6HX1 </a> </td>
+            <td><img class="phonepictures"
+                src="./samsungGalaxyS22.jpg" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>Google Pixel 7 Pro</td>
+            <td>999</td>
+            <td>The best phone for most people.</td>
+            <td>Links to Amazon <a https://www.amazon.co.uk/Google-Pixel-Pro-smartphone-wide-angle/dp/B0BDJ55SSD </a> </td>
+            <td><img class="phonepictures"
+                src="./googlePixel7Pro.jpg" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>OnePlus 10 Pro</td>
+            <td>789</td>
+            <td>48MP Primary, 50MP Ultra-Wide, 8 MP Telephoto Camera - OnePlus Billion Colour Solution co-developed with Hasselblad delivers industry-leading colour science.</td>
+            <td>Links to Amazon <a https://www.amazon.co.uk/OnePlus-Storage-SIM-Free-Smartphone-Hasselblad/dp/B09SGLX6GM </a> </td>
+            <td><img class="phonepictures"
+                src="./onePlus10Pro.jpg" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>Motorola Edge 30 Ultra</td>
+            <td>1399</td>
+            <td>Description</td>
+            <td>Links to Amazon <a https://www.amazon.co.uk/Motorola-Ultra-256-12-5G-bk-Motor-Instellar/dp/B0BD1QTGYJ </a> </td>
+            <td><img class="phonepictures"
+                src="./motorolaEdge30Ultra.jpg" />
+            </td>
+        </tr>
+    </table>
+
+
+    <footer>
+        <p>Benphone Warehouse</p>
+        <p>1 Queen Street, Cardiff CF1 2AB</p>
+    </footer>
+
+
+
+    <script>
+// 1) select the tag
+// 2) manipulate them
+
+/*
+// EX7: Write a function to change the h1 text to something else
+ function changeH1TextToBlue() {
+    let h1Node = document.getElementsByTagName('h1')
+    console.log(h1node)
+    for (let i = 0; i < h1Node.length; i++) {
+    let h1Node = h1Node[i];
+    h1Node.classList.toggle("blue-title")
+ }
+}
+changeH1TextToBlue()
+*/
+
+function changeTextToBlue() {
+    let h1 = document.querySelector('h1')
+    for (let i = 0; i < h1Node.length; i++) {
+    let h1Node = h1Node[i];
+    h1Node.classList.toggle("blue-title")
+}
+}
+
+changeTextToBlue()
+
+
+    </script>
+
+</body>
+</html>
