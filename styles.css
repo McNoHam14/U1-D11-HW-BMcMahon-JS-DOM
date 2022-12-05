@@ -1,33 +1,29 @@
-body.color {
-    background-color:orange;
+body{
+    background-color: silver;
 }
 
+img{
+    height: 120px;
+    width: 80px;
+}
 
-#productTable img{
-    height: 100px;
-    width: 100px;
+table, th, td{
+    border: 2px solid;
+    border-color: black;
 }
 
 .blue-title {
     color: blue;
-    text-size-adjust: 2rem;
-
 }
 
-.mystyle {
-    width: 100%;
-    padding: 25px;
-    background-color: coral;
-    color: white;
-    font-size: 25px;
-  }
-
-/*
-.button {
-   padding: 2rem;
+.background-orange {
+    background-color: orange;
 }
-*/
 
-.hidden {
-    
+.large-text {
+    font-size: 200%;
+}
+
+.hideImages {
+    display: none;
 }
