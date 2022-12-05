@@ -8,25 +8,29 @@
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+    <p onclick="orange()" style="padding:10px;background-color:orange">Orange</p>
 
     <h1> Benphone Warehouse </h1>
 
-    <button onclick="changeTextToBlue()"> Toggle blue style on h1 tag </button>
+    <button onclick="changeTextToBlue()"> Toggle blue on h1 tag</button>
+
+ <!--   <button type="button" onclick="changeBgToOrange()">Set background color</button> -->
 
     <br />
     <br />
 
-
-
-    <br />
-    <br />
+    <button onclick="myFunction()">Save Me For Later</button>
+    <div id=""myDIV"> This adds a CSS Class to every link.
+    </div>
 
     <table id="productTable">
         <tr>
             <th>Model/Title</th>
             <th>Price</th>
             <th>Description</th>
-            <th>Links to Amazon</th>
+            <th>Links to Amazon
+                
+            </th>
             <th>Image</th>
         </tr>
 
@@ -86,7 +90,8 @@
 
     <footer>
         <p>Benphone Warehouse</p>
-        <p>1 Queen Street, Cardiff CF1 2AB</p>
+        <p id="myAddress">1 Queen Street, Cardiff CF1 2AB</p>
+        <button onclick="changeFooterAddress()"> Show fake address</button>
     </footer>
 
 
@@ -96,27 +101,114 @@
 // 2) manipulate them
 
 /*
+console.log(EX7)
+*/
+
 // EX7: Write a function to change the h1 text to something else
+
+/*
  function changeH1TextToBlue() {
-    let h1Node = document.getElementsByTagName('h1')
-    console.log(h1node)
+    let h1Nodes = document.getElementsByTagName('h1')
+    console.log(h1nodes)
     for (let i = 0; i < h1Node.length; i++) {
     let h1Node = h1Node[i];
     h1Node.classList.toggle("blue-title")
  }
 }
-changeH1TextToBlue()
-*/
+changeH1TextToBlue(
+    */
 
 function changeTextToBlue() {
-    let h1 = document.querySelector('h1')
-    for (let i = 0; i < h1Node.length; i++) {
-    let h1Node = h1Node[i];
+    let h1Node = document.querySelector('h1')
     h1Node.classList.toggle("blue-title")
 }
+
+/*
+console.log(EX8)
+*/
+
+// EX8: Write a function to change the page background color
+/*
+function changeBgToOrange() {
+    let bgNode = document.querySelector('body')
+    bgNode.classList.toggle(myAdress,"body.color")
+}
+*/
+
+/*
+function changeBgToOrange() {
+    let bgNode = document.body.style.backgrounColor = "orange";
+    bgNode.classList.toggle("bg.color")
+}
+*/
+
+function orange(){ document.body.style.background = "orange";}
+
+/*
+console.log(EX9)
+EX9: Write a function to change the footer address with a fake one
+*/
+
+function changeFooterAddress() {
+document.getElementById("myAddress").innerHTML = "1 Fake Street, Swansea";
 }
 
-changeTextToBlue()
+
+/*
+function changeFooterAddress() {
+    let footerNode = document.getElementById("myAddress");
+    console.log("myAddress")
+    let fakeAddress = text.replace("1 Fake Street, Swansea")
+    footerNode.classList.toggle("fake address")
+}
+
+if show fake address button is clicked display false address
+else display real address
+
+/*
+console.log(EX10)
+EX10: Write a function to add a CSS class to every Amazon link
+*/
+
+/*
+function addCssClassToLink() {
+    let newDivNode = document.createElementbyId('myDiv')
+    element.classList.add("mystyle")
+}
+*/
+/*
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  element.classList.add("mystyle");
+}
+*/
+
+/*
+console.log(EX11)
+EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+*/
+
+function imageVisible(boolean) {
+    let class = document.getElementsByTagName(" ")
+    // for loop classes.length
+    // toggle hidden
+}
+
+
+
+
+/*
+console.log(EX12)
+EX12: Write a function to color the price of the products in a different one every time it’s invoked
+*/
+
+function priceColor() {
+    document.getElementsByClassName (" ")
+    // for loop
+    // color change each time ( color + i)
+
+}
+
 
 
     </script>

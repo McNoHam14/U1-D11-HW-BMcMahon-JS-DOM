@@ -1,3 +1,7 @@
+body.color {
+    background-color:orange;
+}
+
 
 #productTable img{
     height: 100px;
@@ -7,11 +11,23 @@
 .blue-title {
     color: blue;
     text-size-adjust: 2rem;
-    
+
 }
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+  }
 
 /*
 .button {
    padding: 2rem;
 }
 */
+
+.hidden {
+    
+}
